@@ -1,0 +1,31 @@
+[project]
+name = "dsn-toolkit"
+version = "0.1.0"
+description = "Shared course toolkit: model config with local fallback, eval harness with confidence intervals, quiz bank exporter, fault-injection hooks, learner repo provisioning"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pyyaml>=6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+dsn-quiz = "dsn_toolkit.quiz:main"
+dsn-eval = "dsn_toolkit.evals:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dsn_toolkit"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

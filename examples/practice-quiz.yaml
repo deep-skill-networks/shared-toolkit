@@ -1,0 +1,43 @@
+# Ungraded PRACTICE items (safe for learner repos). Graded items live in instructor-solutions.
+- id: P-M01-001
+  module: M01
+  week: 1
+  pillar: C2
+  bloom: Analyse
+  difficulty: medium
+  spaced: true
+  stem: >-
+    The same support reply costs 3x more tokens when written in Hindi (Devanagari) than in
+    English. Traffic grew 10% last month but the bill grew 40%. What is the most likely cause?
+  options:
+    a: The provider raised prices for Indian customers
+    b: A larger share of traffic is now Indic-language text, which tokenises into more tokens
+    c: Temperature was raised, so outputs got longer
+    d: The KV cache is disabled for non-English requests
+  correct: b
+  explanations:
+    a: Pricing is per token, not per country; the mismatch between traffic and bill points at tokens per request.
+    b: Many tokenizers split Indic scripts into more tokens per word, so a shift in language mix raises cost faster than traffic (FS-COST-01).
+    c: Temperature changes randomness, not average length in a way that would explain a steady 40% rise.
+    d: KV cache affects latency and memory during generation, not billed input tokens.
+- id: P-M01-002
+  module: M01
+  week: 1
+  pillar: C1
+  bloom: Evaluate
+  difficulty: easy
+  spaced: true
+  stem: >-
+    A client wants "an AI model" to route 5 million tickets a month into 12 fixed queues.
+    They have two years of labelled tickets. What should you evaluate first?
+  options:
+    a: A frontier LLM with few-shot examples
+    b: A multi-agent system that discusses each ticket
+    c: A classical classifier (e.g. gradient boosting on embeddings), with an LLM only for low-confidence cases
+    d: Fine-tuning a large model on all tickets
+  correct: c
+  explanations:
+    a: Possible, but at 5M tickets/month the per-token cost is likely far above a classifier for a stable, labelled task.
+    b: Agents add cost and failure modes; routing to fixed queues has predictable steps.
+    c: Labelled data, fixed classes and high volume favour classical ML; a cascade handles the long tail cheaply.
+    d: Fine-tuning a large model is costly to run at this volume when a much smaller model likely suffices.
