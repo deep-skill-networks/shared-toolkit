@@ -1,0 +1,18 @@
+# Example config/models.yaml for a lab. Model IDs change: check each provider's model list
+# and pin a dated version before a cohort starts. Never use an alias such as "latest".
+default: hosted
+fallback: local
+profiles:
+  hosted:
+    provider: openai-compatible
+    model: "SET-A-DATED-MODEL-ID"
+    api_key_env: COURSE_API_KEY
+    temperature: 0.0
+    max_tokens: 512
+    max_cost_inr_per_run: 100
+  local:
+    provider: ollama
+    model: "llama3.2:3b"
+    base_url: http://localhost:11434
+    temperature: 0.0
+    max_tokens: 512

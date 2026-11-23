@@ -1,0 +1,13 @@
+# Example eval cases for dsn_toolkit.evals.load_cases
+- id: refund-policy-en
+  input: "What is the refund window?"
+  segment: en
+  checks: {contains: ["30 days"], not_contains: ["I'm not sure"], max_chars: 400}
+- id: refund-policy-hinglish
+  input: "Refund kitne din me mil jayega?"
+  segment: hinglish
+  checks: {contains: ["30"], max_chars: 400}
+- id: structured-output
+  input: "Extract the order id from: order #A123 arrived damaged"
+  segment: en
+  checks: {json_keys: ["order_id"]}
