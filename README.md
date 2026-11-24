@@ -69,7 +69,7 @@ Releases are tagged `vX.Y.Z`. Labs pin a tag, and each cohort's repos are tagged
 
 ## About the mentor
 
-**Sanjay Negi** brings 23+ years of industry experience and helps experienced software engineers and technology leaders transition into high-value AI roles, including **AI Engineer**, **Forward Deployed Engineer** and **GenAI Architect**. He has trained more than 1,100 experienced engineers.
+**Sanjay Negi** brings 22+ years of industry experience and helps experienced software engineers and technology leaders transition into high-value AI roles, including **AI Engineer**, **Forward Deployed Engineer** and **GenAI Architect**. He has trained more than 1,100 experienced engineers.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/deep-skill-networks/course-hub/main/assets/brand/skillupwithsanjay.png" alt="SkillUp with Sanjay logo" width="60">
@@ -78,7 +78,7 @@ Releases are tagged `vX.Y.Z`. Labs pin a tag, and each cohort's repos are tagged
 <p align="center"><strong>#SkillUpWithSanjay</strong></p>
 
 <p align="center">
-  <a href="https://learn.sanjaynegi.in/web/checkout/6afd228779901d1204871d43" target="_blank" rel="noopener noreferrer"><strong>Join the program</strong></a>
+  <a href="https://sanjaynegi.in/programs/" target="_blank" rel="noopener noreferrer"><strong>Join the program</strong></a>
   &nbsp;&middot;&nbsp;
   <a href="https://learn.sanjaynegi.in/l/adff39aacd" target="_blank" rel="noopener noreferrer">Free bootcamps</a>
   &nbsp;&middot;&nbsp;
