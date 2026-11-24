@@ -49,7 +49,7 @@ See [`examples/`](examples/) for a `models.yaml`, eval cases and practice quiz i
 1. In the private `instructor-solutions` repo, run `dsn-quiz draw` for the week.
 2. Upload the two JSON files to Google Drive.
 3. Run `buildQuizFromDriveFile(fileId, gradebookSheetId)` from [`apps_script/build_forms.gs`](apps_script/build_forms.gs) once per file.
-4. Link both forms from the week's Tagmango lesson. The gradebook sheet keeps the better attempt.
+4. Link both forms from the week's lesson on the learning platform (learn.sanjaynegi.in → COURSES). The gradebook sheet keeps the better attempt.
 
 ## What's next
 - `tracing` (OpenTelemetry setup) — before M06
