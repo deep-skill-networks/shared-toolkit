@@ -80,6 +80,8 @@ Releases are tagged `vX.Y.Z`. Labs pin a tag, and each cohort's repos are tagged
 <p align="center">
   <a href="https://learn.sanjaynegi.in/web/checkout/6afd228779901d1204871d43" target="_blank" rel="noopener noreferrer"><strong>Join the program</strong></a>
   &nbsp;&middot;&nbsp;
+  <a href="https://learn.sanjaynegi.in/l/adff39aacd" target="_blank" rel="noopener noreferrer">Free bootcamps</a>
+  &nbsp;&middot;&nbsp;
   <a href="https://www.sanjaynegi.in" target="_blank" rel="noopener noreferrer">Website</a>
   &nbsp;&middot;&nbsp;
   <a href="https://www.linkedin.com/in/sanjay-negi-ai/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
